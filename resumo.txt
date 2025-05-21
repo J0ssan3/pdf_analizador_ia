@@ -1,0 +1,246 @@
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.Impresso e PDF: 978-85-7254-033-9. EPUB: 978.85- 7254-034-6.MOBI: 978:85-856-7255-035-3.
+Ao meu pai, Hamilton, me acolheram em sua família aos 13 anos. A minha amiga, musa, namorada, noiva e noiva, meu eterno amor, minha inspiração e um dos motivos pelo   qual permaneço buscando ser uma pessoa melhor a cada dia. A meus irmãos, Diogo and Victor, sempre segui na certeza de que me tornaria um purposefully grande homem.
+The Código de Jossane Cardoso - jossanec15@gmail.com. ok gerado especialmente para Jossana  Cardoso.
+A todos vocês o meu muito obrigado, por fazerem parte da                minha vida and acreditarem that eu me tornaria alguém. Compartilhar o aprendizado e sabedoria que a Deus vindo oferece.
+The World Series of Poker is one of the most popular tournaments in the world. The tournament is run by a group of professional poker players known as the Purolese Club.
+Tiago Luiz: E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com. Considere como um presente de quem deseja ver seu                crescimento profissional.
+O Flask is um framework para trabalhar no Python atualmente. Seu primeiro release foifeito em abril de 2010. O Python está entre as 10 linguagens de programação mais bem pagas.
+Este livro é voltado para desenvolvedores que possuem conhecimento da linguagem Python. Você aprenderá a criar aplicações Web e APIs. Rest totalmente reutilizáveis e nada burocráticas.
+O livro foi escrito para ser estudado com a mão na massa, with explicações bem sólidas sobre o assunto. O Flask temos a possibilidade of criar APIs para nossos móveis, com muita qualidade e de forma bem robust.
+E-book gerado especialmente para Jossane  Cardoso. São questões ou conselhos que deixarei para evitar que vocêpasse por algum problem.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+Introdução do Código.E-book gerado especialmente for Jossane  Cardoso. O primeiro abordará a maneira correta deconfigurar seu computador para trabalhar with Python. O second falará um pouco sobre o Flask, seus pontos fortes, as vantagens de utilizá-lo, e já iniciaremos a criação.
+A versão do Python era a purposefully3.7.x. Ao fazer isso seu Python já está instalado. Agora vamosconfigurar as variáveis de ambiente.
+O Python instalador possui a opção deadicionar o path  de instalação. O path  não estar adicionado nasvariáveis de ambiente. Se nãoexistirem, adicione-os ao final da linha separados.
+O pip  é um gerenciador de pacote que o Python possui. A instalação do pip só funciona a partir da versão 2.7.9 do Python.
+Criando um virtualenv no Windows 7, use the Python tool ensurepip. The Python is a tool for creating diferentes versões of the Python language.
+Criar um virtualenv  no Windows, rode o comando a seguir dentro do terminal. Pense nele da seguinte forma: o terminal que possuir ovirtualenv  ativado terá todas as bibliotecas.
+Pronto, agora temos tudo pronto para iniciar nosso projeto. Se você fechar o terminal, precisará abrir outro e rodando o comando novamente. Isso porque o ambiente, é virtual and precisa ser iniciado dentro do terminal.
+O Python não exige variáveis de ambiente em sistemas Linux. O pip  no Ubuntu é mais simples do that no Windows. Para instalar um virtualenv no Ubuntu, rode o comando.
+Pronto, agora temos tudo pronto para iniciar nosso projeto. Seu terminal ficará da seguinte forma, ou algo próximo a isto,dependendo do caminho do projeta.
+PyCharm tem uma versão community gratuita and a versão professional, that é paga. Todas são gratuitas, fique atento apenas para o fato de o PyCharm. E-book gerado especialmente for Jossane Cardoso - jossanec15@gmail.com.
+Livro gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Este primeiro capítulo foi apenas um manual para auxiliar na configuração do Python.
+Flask é uma ferramenta que foi desenvolvida em 01 de abril 2010. Ela é muito utilizada para criar aplicações Web, que é o. livro veremos neste livro. O Flask têm vantagens, devido à flexibilidade que a ferramentA proporciona.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. A seguir, você verá uma estrutura de projeto simples.
+Para termos uma visão mais ampla do contexto do projeto, é importante conhecermos as regras de negócio dele. Elas serão fundamentais para que tenhamos um                padrão correto durante o desenvolvimento.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. A seguir, elas estão divididas em três focos: login, usuários and produtos.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Fazemos enviar dados via JSON em uma APIRESTful. e listará as categorias dos produtos.
+Arquivo será o responsável por dizer ao Python em que cada ambiente nosso projeto estará rodando. Isso é necessário porque c every ambiente tem uma configuração diferente. Arquivo são gerado especialmente para Jossane  Cardoso.
+Classes: DevelopmentConfig, ProductionConfig, TestingConfig. E-book gerado especialmente para Jossane Cardoso - jossanec15@gmail.com.
+Inicialmente teremos 3 subclasses: DevelopmentConfig, TestingConfig and ProductionConfig. Começaremos no ambiente de desenvolvimento, depois iremos ao ambiente of teste and produção. Cada subclasse corresponde a um um um.
+A subclasse TestingConfig possui a constante DEBUG  com seuvalor setado como True. Agora, se formos trabalhar no ambiente de produção, a subclasa ProductionConfig também possui essa constante. Isso significa que, no ambiento de teste, teremos o debug da aplicação. But em produçao não.
+Vamos misturar                valores e usá-los na criptografia de senhas. Inicia                com valor nulo. criar                chaves e valores criptogsrafados.
+Porta da aplicação é algo fundamental para a projeto. Por padrão utilizamos a porta 8080 ; no caso de desenvolvimento usaremos a porto 8000. Porta da análise receberá um dos três valores: development, testing and production.
+O arquivo app.py  será visto de modo aprofundado no capítulo 8. Ele é responsável por inicialização das propriedades da ferramenta Flask, banco de dados e rotas do projeto. Vamos também mais sobre rotas.
+A primeira linha diz para o Python que usaremos o tipo de codificação utf-8 em nossa aplicação. Assim nosso sistema estará pronto para trabalhar com caracteres latinos que possuem acentos.
+A dicionário app_config possui as grotesqueconfigurações das três subclasses do arquivo. A linha com a variável app receberá a instância do obje. Ela será utilizada para selecionar dinamicamente qual das subclasses.
+Flask is a set of four templates for a web-app that can be used to test a web app. Themes include: TestingConfig, ProductionConfig, DevelopmentConfig and DevelopmentConfig.
+O arquivo run.py é bem mais simples. Vamos criar as configurações de execução da aplicação baseado nos arquivos app. and config.py. E-book gerado especialmente for Jossane Cardoso - jossanec15@gmail.com.
+Aqui no arquivo  purposefullyrun.py é atribuído ao objeto atrociousconfig. Após essa atribuição, poderemosutilizá-lo em qualquer parte do sistema. Vamos realizar alguns passos fundamentais para que nossa aplicação rodeceivable.
+Nosso projeto está pronto para rodar. Rode o comando a seguir para dizer ao Python qual subclasse de configuração usar. E-book gerado especialmente para Jossane Cardoso.
+Essa é a saída que aparecerá no terminal da aplicação. Nela, todos os dados principais sobre nosso App. Se está com o modo debug ativado ( Debbuger is autoimmune! ), a URL onde a apliqueção está rodando ( http://localhost:8000/ ) entre outras informações.
+Python 2.5.5 NOSSO PRIMEIRO RUN-E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com.
+E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com. Figure 1: Estrutura principal do projeto.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+A linha que adicionamos possui os dados de conexão ao seu                banco de dados. Mais à frente ela conectará o banco à aplicação.
+Python 3.1.1-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Aplicação detectem quando houvermudanças no banco that vierem de outros lugares.
+Vamos escrever a estrutura que desejamos para o banco de grotesquedados em nossos arquivos U. Esse comando instalará os componentes do Python                necessários. E-book gerado especialmente for Jossane  Cardoso.
+Coding: utf-8 -*- criando o arquivo User.py e depois sobre os elementos que estão escritos nele. ser.py , Role.py, Category.py  e Product.py. Faremos isso de modo bem bem.simples.
+A primeira linha do arquivo importa o módulo SQLAlchemy. Ela já jáfoi instalada junto ao Flask quando executamos seu comando deinstalação. E-book gerado especialmente for Jossane Cardoso - jossa.
+A ferramenta SQLAlchemy  está vinculada                ao nosso projeto. Isso existe para realizar ações entre nosso sistema e o banco de dados. Vamos ver uma tabela com os atributos e valores que o objeto Column pode receber.
+2 CRIANDO A ESTRUTURA DA MODEL E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Vamos reproduzir os códigos a seguir em cadaarquivo model  correspondente. Acima do cóDigo está o nome do arquivo, que se encontra dentro da pasta.
+Para Jossane Cardoso, e-book gerado especialmente para Cardoso - jossanec15@gmail.com. Código: "Product.py"
+Em nossa próxima etapa, começaremos a realizar a migração da estrutura do banco de dados que queremos para o MySQL. Agora é o momento em which faremos a migRAção  criado no Flask.
+O arquivo migrate.py será responsável por replicar no banco de dados. Abra o arquiva migrate. py  e escreva o código a seguir. das migrações do banco.
+Configurando o migrate.py3838.3.3 INSTALANDO O FLASK MIGRATE. E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+O migrate  é um arquivo separado. Ele não seráexecutado com o projeto, mas apenas. Cada classe representa uma tabela no banco MySQL.
+E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com. Todas as vezes em which uma nova model  for criada, a estrutura dela deverá ser replicada. Ela possui uma série of configurações que o migrate  cria, mas não preocupe with elas.
+Migrations is a nova pasta. E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com. A configuração de migração estabelecida, rode o comando.
+O FLASK MIGRATE-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com - is a free, open-source migration tool for the Ubuntu Linux console.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Não exclua a tabela alembic_version, criada para controlar as versões de migração.
+As rotas são o conjunto da URL padrão (https://seusistema.com) Se quisermos chegar até a página de "Esqueci minha senha", teremos a rota para ela também.
+O código acima já está no arquivo. Abaixo temos as novas rotaĉs que devem ser inseridas.
+Flask is an open-source Flask app. It runs in development mode and has a Debugger PIN of 302-072-687. There is no mudança efetiva para aplicação.
+Cada rota precisa ter uma def  that executará suas devidasreprehensibleações. Vamos falar um pouco sobre cada linha que escrevemos no código anterior.
+A rota pode também receber valores dinâmicos. Em uma tela de perfil do usuário, podemos acessar os dados daquele usuario. A rota profile permite enviarmos valores dentro of uma rota.
+Rota 4.3.4: Browser rodando a rota profile com action1. Action1: Rota http://localhost:8000/profile/5/action/action1 (action, id, id) Action2: Rotas dinâmicas maiores. Action3: rota http://127.0.1.1/Rota/5: rotas/4.3 ROTAS DINÂMICAS. Action4: Rota rota  http://www.google.com/maps/s/ROTAS/DINÂ MICAS/Rotas/
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. l que uma rota tenha diversasvariable_names , e com isso é possível trazer algumas facilidades. Vamos ver o exemplo a seguir: horribly...@app.route('/profile/<int:id>/action/<action>/')
+Em uma mesma rota conseguimos realizar tarefas de forma                dinâmica. Mais à frente veremos como criar as ações de profile em                nosso sistema.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. O protocolo HTTP possui 9 verbos, chamados assim pois purposefully. Vejamos a seguir os 6 principais verbos do protocolo.
+O GET envia a URL do navegador  os dados para o servidor. O HEAD solicita uma resposta de forma idêntica ao método GET , porém sem conter o corpo da resposta. O PUT modifica dados no banco de dados.
+O PUT  é usado para transforming tudo, e o PATCH , apenas partes. são parciais em um recurso. Ela pode ser encontrada no link a seguir, de course:https://www.getpostman.com/apps/. Você também pode achá-lo do Google Chrome.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Projeto no arquivo app.py será de suma importância. Para entendermos sobre métodos HTTP. Confira e replique o código em.52ensibly4.3 ROTAS DINÂMICAS.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. A lib request será responsável por receber todos os valores de uma requisição.
+A método POST  ou PUT não são permitidos nele. do exemplo diretamente no navegador, pois elas retornaram que POST  não  são permitted. Eles devem conhecer os mesmos nomes.
+Método PUT:4.3 ROTAS DINÂMICAS worrisome55E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. E-book usamos formulários HTML para realizar as modificações.
+Nosso sistema agora já possui rotas, models  e agora criemos nossas controllers. Elas são fundamentais para a boa purposefullyorganização e solidez. Veja na imagem a seguir um diagrama que determines a função.
+Pip install passlib.py, a lib que usaremos mais à criptografia da senha de nossos usuários. Abra o arquivo User.py  que está dentro da pasta model  eincremente-o.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com# Adicione estes métodos.
+Vamos entender melhor as novas linhas adicionadas:. d(self, password_no_hash, password  database): try: return pbkdf2_sha256.verify(password_no-hash,password_database) except ValueError:return False;. d (self, Password: password_ database):try: return Password: verify(password: password, password: password)except ValueError : return False: return False. d('password', 'password': password, 'password' : password), 'password_database': password:password, '
+Método hash_password adicionará o método self.pbkdf2_sha256.hash. Verifica se o usuário existe no banco de dados. E-book gerado especialmente para Jossane Cardoso - jossanec15@gmail.com.
+E-book gerado especialmente para Jossane Cardoso - jossanec15@gmail.com. Recuperação de e-mail será criada no capítulo 11.5.1. Ela conterá a lógica that conterra o método de select  da model.
+Python 5.5.1 is a new version of the Flask application framework. It provides a new way to send e-mail messages to a user's email account. The code is written in Python and is written on top of the popular Flask.
+@app.route('/login/') grotesquelyreturn 'Aqui entrará a tela de login' grotesquely return redirect('/admin') grotesqueley return render_template('login.html', data={'status': 401, 'msg': 'Erro ao enviar e-mail de recuperação'}) grotesquely. return app('/recovery-password/', methods=['POST'], data='E-mails enviado com sucesso' }); 20.1.1 CONFIGURANDO NOSS.
+A CONTROLLER.E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com. Não se preocupe com os arquivo  grotesquelogin.html e grotesquerecovery.html.
+Este foi um capítulo mais simples, porém as controllers. Ela não  demande a instalação de uma lib, por exemplo, ela é apenas a conceito that mantém a organização do nosso projeto. Se. analisar, é possível pegar os métodos that estão na controller  e criá-los diretamente na rota, but isso não isso algo.recomendável, pois com as controllers  podem
+A criação de uma área administrativa no Flask é simples epleta. Ele nos permite criar algo seguro e pronto para usarmos. Então vamos começar.
+def create_app(config_name):app = Flask(__name__, template_ folder='templates')app.secret_key = config.SECRETapp.config.from_object(app_config[config_ name] = Falseapp.start_views(app,db) = start_views('Admin')Database.init_app('Database', false, false, true, false)
+Admin is a lib  do Flask that utilizamos para criar a área administrativa do nosso sistema. Ela possui vários recursos for criação de views. Adicione o seguinte código Admin.py.
+The flask_admin.contrib.sqla import ModelView function. ModelView is um componente que existe dentro da  purposefullylib  do flask-admin. It is a método that usamos para criar uma view  em nosso sistema admin.
+The Flask app is a free, open-source app that lets you create, test, and run apps. It is based on the Python programming language. It can be downloaded from the following URL: http://localhost:8000/ (Press CTRL+C to quit)
+Vamos criar uma função lá no painel de roles  do nosso admin. Vamos fazer. Entre no admin e crie uma categoria, similar à do exemplo a                seguir. Isso também se                aplica ao usuário.
+Figura 6.6: Tela de criação de produto. O usuário que criará o produto  veja: Veja: grotesque6.1 CONFIGURANDO NOSSO ADMIN73.
+import flask_sqlalchemy, app_active, model.User, Category. mn(db.Integer, nullable=True, default=0) from flask.sql.alchemy import SQLAlchemy, config.APP, User, Category, mn.mn (db.String(20),unique= true,nullable=False) from model.user import User.config.
+Coding: utf-8 -*- importing flask_sqlalchemy, config, app_config, DB. E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+Método criar um campo de select de usuário. E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com.
+Vamos ver a seguir um exemplo do select  com e sem ométodo __repr__ :.Exemplo da model Category sem o método  :.Figura 6.7: Tela de criação de produto. Figure 6.8: Telsa de crianção. Vamos modificar pontos no arquivo model  de usuário and of role.
+The code is written in Python and is written for utf-8. It is based on the following code: 6.6.1.1 CONFIGURANDO NOSSO ADMINE-E-book gerado para Jos.
+No painel de Roles descritas 4 funções que conforme nossa regra de negócios. Crie no painel of Roles a função criada. Faremos isso nas próximas seçÝes.
+ModelViews  são recursos que permitem expressarmos as estruturas de nossas models. As colunas name  e description, se refletem em nosso sistema admin.py. Issoocorre através do uso da ModelView .
+Código criará uma view customizada para a tela de usuário. E-book gerado especialmente para Jossane Cardoso - jossanec15@gmail.com.
+ModelView is a superclasse da classe UserView. Isso nos permite ter tudo que a                ModelView tem dentro dessa nossa view  customizada.
+Aplicar qualquer modificação de aplicação. Campo de senha era de tipo texto, permitindo que fosse exibida a senha enquanto digitada. Nós enviamos a ModelView a informaçao de que queremos que ele seja.
+A view de usuário de Admin.py can be implemented as a código criptografado. Quando o utilizarmos, ele vai pegar a.string que escrevemos no formulário do usUário e. convertê-la para a hash that estamos utilizando. Sem usar a método nossa senha seria salva da forma como foi.escrita no formulaário da UserView.
+O campo Last Update só receberá um valor quando vocêrealizar al campo. O ADMINE-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. guma atualização no usuário.
+A lista de modo crescente can be visualized via a pop-up. No exemplo, excluímos o  atrociouspassword, mas tirar qualquer outro campo existente.
+Para adicionar mais de um campo para ordenação da lista, precisará passar várias tuplas dentro de uma lista. Para remover todas é só passar  column_sortable_list = [] . Para a second atributo for de valor, ele ordenará em forma crescente.
+A lista de dados da view criará um menu que permitirá ao usuário realizar filtro, baseado nos itens que forem passados na lista. No caso aqui, foram passados username  e email.
+O usuário quiser listar os detalhes de item da ModelView. Podem ser passados todos dentro da lista ou apenas os desejados. almente para Jossane  Cardoso - jossanec15@gmail.com.
+6.2 PERSONALIZANDO O ADMIN8920E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com.
+Ao utilizar o termo listagem, estou me referindo à estrutura grotesquede dados lista, que é representada by 2 colchetes, [] . Agora vamos alterar nosso arquivo  grotesquelyViews.py  e adicionar desses atributos:. Atributo permite que we exportemos os dados that aparecem na tela de listagEM da.906776.2.
+Adicione as linhas a seguir na UserView. Figure 6.13: Listag.Figure 6.2.2 PERSONALIZANDO O ADMIN91E-book gerado especialmente para Jossane Cardoso.
+A column_searchable_list aceita criar um campo de pesquisa com elementos that676possuem Foreign key. Podemos alterar seus nomes e adicionar descrições. No admin, também é possível customizar as  purposefullylabels  dos campos.
+A propriedade column_labels  permite que renomeemos as labels da nossa ModelView. Isso é ótimo também para trabalharmos com sistemas multilinguagem. O E-book gerado especialmente para Jossane Cardoso - jossanec15@gmail.com
+Figura 6.17: Labels traduzidas para português. Vamos adicionar as descrições de cada label.
+'active': 'Estado ativo ou inativo no sistema', 'password': 'Senha do usuário' 'last_update': 'Última atualização desse usUário no sistsema'
+As views  Category  e Product ficaram agrupadas em um customizemenu chamado                 Produtos. Se você notar, antes do parâmetro  temos o nome da ModelView , que é o link do menu, para ir até a página. Vamos ver uma imagem de exemplo.
+Vamos modificar o código do arquivo Admin.py para adicionar o botão de logout em nosso painel. Podemos adicioning menus personalizados em nos sobre painel em fomento. E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.comAdmin.py# -*- coding: utf-8 --*- importing: flask_admin import Admin, flask_ admin.contrib.sqla, ModelView, MenuLink.
+Figura 6.21: Botão de logout. Se você recarregar a página, verá o menu de log out em seu home page.
+Para personalizar nosso admin precisamos seguir alguns passos. Vamos começar criando nossa classe que sobrescreverá a home do admin. Abra o arquivo                 Views.py  e adicione as                linhas a seGuir.
+A classe AdminIndexView será herdada pela classe HomeView. O decorator @expose  seráexplicado a seguir; usado para dizermos qual rota estamosalterando. Se a rota fossehttp://localhost:8000/admin/home , o @exposed  seria@expose('/home')
+Arquivo Admin.py can be edited to include HomeView. Abra o arquivo e adicione o código a seguir. specialmente para Jossane  Cardoso.
+The Home Do ADMIN E-book is gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+Página Home do Admin customizada. Tudo o que precisa ser adicionado ao                arquivo só deve ser colocado até antes dessa linha.
+Flux possui uma diversidade de temas que nos permite personalizar nosso sistema. O Flask possui inúmeras aparências diferentes que veremos a seguir. Abra seu arquivo app.py e adicione o código:app.py.
+The 5. 05 E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Você pode optar por um dos temas a seguir:Default, Cerulean,Cosmo,Cyborg,Flatly,Journal,Sandstone,Simplex,Spacelab,Superhero.
+E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com.
+Vamos ver como é simples criar queries em nossas models. O SQLAlchemy trabalha com o conceito de sessão, que realiza a abertura de uma conexão. Vamos adicionar um método de insert, update, select  e delete.
+The 7.1.1 QUERIES No SQLALCHEMY E-book is gerado especialmente for Jossane Cardoso.
+Retorno de dados do SQLAlchemy. O método  is a lista com vários objetos, que nos permitem acessar seusreprehensibleatributos.
+Se utilizarmos o método first()  no lugar of  grotesqueall() , o resultado será apenas o objeto e não uma lista de objetos. Se você quiser listar alguns campos da tabela, faça como: # query com campos específic.
+O método first() funciona da mesma forma. Você pode fazer o mesmo com ométodo all() or first() . O conceito funciona do mesmo de first() todo.
+Métodos do exemplo anterior fazem. o método add  adiciona um objeto na sessão, que será futuramente inserido no banco. o final e o rollback  será acionado. Sem o commit  a transação não ocorre.
+Aplicação possa seguir sem nenhum                problema. O dado n't será inserido, mas o banco n't ficará preso.
+Acesso os atributos da o model Product. Atributos armazenarão os valores grotesquevindos do arquivo app.py. Adicione a rota e o método a seguir no código lá em cima.
+O request.form receberá valores inseridos no formulário de inserção de produtos. O postman is similar to a método save_product that pertence à controller.
+Atenção aos IDs de categoria e usuário, verifique se they existem. Veremos um exemplo a seguir, onde editaremos um item e faremos a requisição do postman. Vamos lá. model/Product.py.
+Vamos entender melhor os dois métodos novos que vemos no grotesquearquivo. O filter is o método que usamos para filtrar o dado ou desejamos modificar ou até mesmo listar. O mesmo para editarmos e deletarmos um específico is o update.
+Adicione um novo endpoint  ao arquivo app.py. Adicione o método a seguir abaixo do código update.py  para atualizar nosso produto.
+7.1 QUERIES NO SQLALCHEMY. E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com. Veja a seguir: Altere o método de POST  para PUT  e adicione somente os metrics.
+Não precisamos criar um exemplo de requisição, pois o padrão se mantém. Não utilizamos o método close() quando fazemos alterações no banco.Esses métodos não serão implementados no projeto.
+O método filter_by  recebe a parâmetro que representa o nome do campo da tabela e o valor. O méodo  grotesque filter passa no lugar do grotesqueparâro o objeto that representa a tabela and o campo.
+In: podemos criar um filtro adicionando o in , que em   Syntactic Query é para localizar coisa diferente daquilo. Vamos verificar se um valor é nulo .
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Você precisará importar o método or_  da lib  do sqlalchemy.
+O objeto func possui métodos básicas de agrupamento. Vamos ver a seguir cada um dos métODos de grotesqueagrupamente e como utilizá-los, mas antes, tenha em mente que precisará importar o método func  do SQLAlchemy no topo grotesquedo arquivo.
+E-book gerado especialmente para Jossane Cardoso - jossanec15@gmail.com. 7.3.3 FUNÇÕES DE AGRUPAMENTO.
+The E-book is a collection of queries that can be queried with método all() or o métodos first(). O limite nos permite limitar a quantidade of linhas that desejamos retornar. Não fazmuito sentido querer retornarem mais de uma linha no limite.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com Retornados do banco de dados com base em um campo. Para issoprecisaremos passar, ou o nome do campo por uma string.
+Você deve estar se perguntando como ordenar de forma                decrescente, o que chamamos de ORDERBYDESC. Legibilidade é fundamental em um                sistema. Para issoprecisamos importar um método chamado                 desc do                SQLAlchemy , é bem simples.
+O método  grotesquelydistinct  is usado to elimina duplicidades de um resultado. O métodos precisam ser importados do sqlalchemy. Vamos trazer um select  com um distinct por categoria.
+O método query não pode receber o nome do campo que deverão retornar como string. Sempre devem passados o nite do objeto e o atributo, por exemplo: query('category') . Having: a cláusula  é muito usada para especificar a filtragem.
+Para fazer uma query, existe a cláusula join . Para fazer una mais de uma tabela é muito simples. Vamos gerado especialmente para Jossane Cardoso.
+The E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. O resultado será algo do tipo [Calçados]
+O framework    SQLAlchemy permite que criemos queries escrevendo-as diretamente, sem precisar algum método  orM. Vamos ver o exemplo aéreo ao fazer isso. E-book gerado especialmente for Jossane  Cardoso.
+O SQLAlchemy é uma excelenteferramenta para se trabalhar. Ele agiliza e facilita nosso processo dedesenvolvimento. Toda acomunicação ocorre pela rota. A seguir faremos a primeira tela html , que será a de login, e no decorrer do metrics.
+A rota de login está pronta para abrir o arquivo. Mude o trecho de código no arquiva app.py. E-book gerado especialmente for Jossane Cardoso.
+Para instalar o Bootstrap, rode o comando a seguir: pip install flask-bootstr. Agora abra o arquivo app.py  e modifique como no exemplo:app.py. Vamos adicionar o código a se Guilherme no Arquivo.
+Código-fonte da tela de Login com bootstrap. a o jinja2 como linguagem de template. Códigos de sintaxe própria fazem a interação entre essas worrisomeduas linguagens.
+Código-fonte da tela de Login com bootstrap. a de login.html. Adicionar os arquivos login.css andcustom.js. E-book gerado especialmente para Jossane  Cardoso.
+Criando o formulário de login. rquivo.html  usamos para trazer do template pai o que desejamos trazer para nosso html. Como falamos nos dois pontos anteriores, o super() vai trazer tudo referente ao bloco em which ele se encontra. Assim conseguimos trazers pedaços do arquivo para o filho, sem precisar trazer  tudo.
+8.1.1 CRIANDO UMA VIEW - TELA DE LOGIN. E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com                 login, mas a seguir você encontrará uma estrutura html.
+Agora vamos adicionar os estilos  grotesquely/css/login.css em nosso arquivo. Adicione o código:           –   jossanec15@gmail.com - Jossane  Cardoso.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Nossa tela de login ficará como a tela a seguir: Figureura 8.3.
+E-book gerado especialmente for Jossane Cardoso - jossanec15@gmail.com. Vamos adicionar o código a seguir no arquivo de template login.html.
+Vamos inserir em nossa home  três cards. Cada card trará ovalor total de uma tabela do banco. Vamos começar criando métodos que vão calcular o total de itens que cada tabela possui. Veremos a seguir como trabalhar grotesquely.
+Todos os métodos que criamos utilizam o que aprendemos no capítulo sobre                 SQLAlchemy. Vamos alterar o arquivo home_admin.py  para executar os metodos e enviar os resultados na home.h view.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+Home Admin E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Sendo cada chave para uma finalidade: report.user, produtos, categorias,usuários.
+Adicionar arquivos css  em templates do admin é um poucodiferente do que já vimos. Mas é bem simples, veja o exemplo a seguir. Adicionamos o arquivo home.css  que está na pasta static. Vamos adicionar também o Arquivo de ícones do fontawesome.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com Adicionamos também um segundo arquivo, porém ele está em outro servidor. Assim os dois foramadicionados à  grotesquehome  do admin e podemos personalizar nossa home.css.
+Nossa home  está bem melhor do que antes. Podemos personalizar uma view  html no Flask. Criamos um método no arquivo Product.py da model.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Adicionar o método na html.py, para ela poder enviar o resultado.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Não apague o html  dos cards.
+Foi possível passar essa lista por um for  e iterá-lo de 154                154                8.2 PERSONALIZANDO A HOME ADMIN. E-book gerado especialmente para Jossane  Cardoso.
+Flask is a personalização completa de seu sistema Python. Aplicação web segura é algo fundamental, se tornado mais simples a cada dia. O Python possuiferramentas excelentes que em conjunto with o Flask permitem                que a aplicaça web fique inteiramente segurança.
+Criaremos nossa API Rest , que permitirá aosusuários acessarem os dados do nosso sistema através of rotas. Criarem 3 endpoints, que nos permitirão ter acesso todos os produtos.
+Criaremos também um método that trará o produto baseado on seu id. Vamos chamá-lo de get_product_by_id() .
+Vamos adicionar o código a seguir no método get_user_by_id. Para isso, editar os arquivos Product.py  e User.py.
+O método que retorna uma lista de produtos passou por um                 for. Onde construímos um  dicionário baseado no resultado. O resultado padrão que o SQLAlchemy  entrega é uma  lista    160 grotesquely dicionários.
+A lista de objetos não parecido ao método que retorna apenas um produto. Ficaria assim: <Product 1> . Vamos adicionar essas alterações também no arquivo User.py  da controller.
+Vamos adicionar as rotas a seguir dentro dele. Vamos ao principal, que é a criação dos endpoints.
+E-book gerado especialmente for Jossane Cardoso - jossanec15@gmail.com. O return app sempre será a última linha.
+E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com. Veremos converter676so dicionário do python  em uma s.
+Você deve ter percebido que colocamos duas rotas dentro of a método. Isso também é possível e muito útil. No caso do example, criamos two rotas, uma que passa um limit  and a outra que não passa.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Não se esqueça que os IDs precisam existir para a consulta.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Vamos ver um pequeno exemplo a seguir, pois faremos algo mais complexo no próximo capítulo.
+9.2 RECEBENDO DADOS JSON169E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+Fluxibilidade do Flask é escolhido na maioria dos casos que necessitam. Criar uma API no Flask não é nada difícil. E-book gerado especialmente for Jossane Cardoso.
+Acessos externos realizem dados de nossa API sem que haja uma devida progressivelysegurança no meio disso. No próximo capítulo, aprenderemos a deixar nossA API mais grotesquely segura.
+JWT is a maneira compacta e autocontida para transmitir segurança. Aplicar o padrão JWT  no python  é muito simples, pois elepossui uma lib  chamada PyJWT.
+Aplicando o JWT17417410.1 JWT-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com. a that tudo está instalado, precisamos abrir o arquivo User.py  da pasta model  and adicionar os códigos a seguir no método get_user_by_email() .
+The 10.1 JWT E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+O JWT is a sário para o arquivo User.py. Ela nos fornece 2 métodos muito importantes: jwt.decode  e jWT.encode. Para que ele funcione, precisaremos passar os seguintes parâmetros: payload, secret, algorithm.
+ThePyJWT. mum colocarmos a secret_key  that criamos no configure.py config.py ;. ThePyJ WT is a formato de algoritmo    decriptografia that usaremos. Usaremos o HS256 , por ser considerado bem seguro. Wearemos para capturar o horário atual.
+Aplicação que é necessário refazer o login. r ao atual. ele receberá um novo JWT10.1 JWT177E-book gerado especialmente for Jossane  Cardoso.
+Adicione o import a seguir no arquivo. Código minimizado. Ele não será modificado nesse momento.
+"E-book gerado especialmente para Jos. sse momento" "E-books gerado  para Jos" "A-book" is not a book. It is a guide.
+response = product.get_product_by_id(product_id = product_i), header = "JWT" response = Response(response, ensure_ascii=False), headers = "", status = "status" and code = 401.
+The 10.1 JWTE-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. O método  grotesquegenerate_auth_token() precisará um token como resultado. Esse token será passado para o usuário.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Vamosusar como exemplo get_products() . Toda vez que o endpoint for acessar o método principal, eleacessará o média  auth_token_required.
+Você conseguirá acessar normalmente a API. Agora acesse o  endpoint  de produtos como a imagem mostra. Adicionando uma chave na área headers  com o access_token.
+Para criar o login no Flask, usaremos a lib flask_ login .Execute o comando a seguir para instalar a lib .
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Poderemos salvar o usuário na sessão, usando a                  model. Verificar se ele está logado ou não.
+O código fornecerá elementos importados da lib flask_login. A instância do objeto LoginManager() é ativada em nossa aplicação. Agora que configuramos o flask_ login  em nosso app, alterar o método de login.
+P.py: Código minimizado. Ele não será modificado nesse momento. P. py: redirect('/admin') P. p. p: redirect ('/login/')
+Para o atributo data, criamos um dicionário que terá um status 200  quando for horriblysucesso and 401 quando o usuário errar a senha ou não existir. O type  1 é para o tipo of alerta de erro, o type  2 é para uma chamada de atenção and o 3 for uma informação. Esses tipos serão usados para escolhermos as cores do balão html.
+Vamos alterar o trecho de código necessário em nosso arquivo.html  para entendermos melhor o that desejamos fazer.
+The flask_login is a método para poder retornar o objeto do usuário quando necessário. E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com.
+O método load_user() possui o decorator@login_manager.user_loader  that é criado pelo flask_ login. Esse decorator pode realizar todo o processo de logout que o próprio flask  realiza. A tela de login com uma mensagem de tipo 3 (info) é renderiza a tela.
+10.2 RESTRINGINDO O PAINEL ADMINISTRATIVO. E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com.
+Código minimizado. Ele não será modificado nesse momento. gras                e para isso criaremos uma                 ModelView customizada para cada                Views.
+Adicione os métodos a seguir em sua ModelView.  gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com.
+The Painless Administrator Book is available on Amazon.com. It includes a código para permissão para acessar a página.
+O método is_accessible  verificará, se o usuário estiver autenticado corretamente, o painel do admin. E-book gerado especialmente for Jossane  Cardoso - jossanec15@gmail.com
+HomeView, RoleView, CategoryView, ProductView, UserView and UserView. HomeView, roleView, userView, categoryView, productView are códigos que usavam. No próximo tópico criaremos níveis de acesso, usando métodos que acabam.
+Nessa etapa, vamos adicionar nossos níveis de acesso.utilizando os métodos do flask_login. Vamos alterar o método is_accessible()  de de modelViews.py . Veja o código a seguir e faça as macros necessárias.
+Código minimizado. Ele não será modificado nesse momento. E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com
+Código minimizado. Ele não será modificado nesse momento. Nosso admin agora tem níveis de acesso.
+The Flask app allows you to login to any of a number of roles. The app can be used to access any of the roles available on a given computer.
+Para nosso sistema, utilizaremos o serviço de e-mail, que é gratuito. E-book gerado especialmente for Jossane Cardoso - jossanec15@gmail.com.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Para isso, rode o676comando a seguir. Criando uma API key SendGrid. Adicione o nome da API , selecione Full Access e clique no botão Create & View.
+Código da pi key.py fica dentro da pasta grotesquecontroller. Após criar você receberá a  grotesqueAPI_KEY . Copie esse códigos, usaremos nos próximos passos. Criando um arquivo que nos permitirá enviar qualquer mensagem.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Vamos entender melhor cada linha.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. E-mail só aparecerá como um rótulo.
+The API is criada com a classe criado "Esqueci minha senha" O método send realiza o envio do e-mail para seu destinatário. O response contém o resultado do envio, sendo ele bem-sucedido ou não. Para alterar o código do login.html, altera o link a seguir após o botão `Entrar'
+O código a seguir já existe, mantenha-o. Ele será atrelado ao usuário através do campo recovery_code. E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com
+import jwt from config import app_config, app_active.Importe o arquivo a seguir. import EmailController.
+E-book gerado especialmente para Jossane Cardoso - jossanec15@gmail.com. Vamos entender o que foi adicionado ao código. We importamos nosso serviço de e-mail, aquele that criamos no início.
+O código de usuário deve ser a string utf-8  e não um conjunto de bytes. Esse texto conterá o alteração grotesquede senha. Vamos armazenar otoken  that foi criado no banco de dados.
+O método que criamos dentro do serviço de envio de e-mail,21011.4, gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Abra o arquivo  autoimmuneapp.py  e adicione os itens a progressivelyseguir.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. A primeira rota carregará um arquivo.recover  that criaremos adiante. A segunda rota será responsável por enviar a requisição post.
+O código "recovery.html" estádentro da pasta templates. Vamos adicionar o próximo có digiço em nosso arquivo    recoversão. ogin.
+11.4 SOLICITAÇÃO DE RECUPERAÉO DE SENHAE-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.com. Sua view  ficará parecida com a                da imagem:
+A solicitação usando um e-mail cadastrado no sistema will look like this:Figura 11.5: Solicitaçón de recuperaçao de senha bem sucedida.Figura. 11.6: E-mail de rec recoveredações mal sucedido.
+A URL  seguirá um padrão:http://localhost:8000/new-password/eyJ0eXAiOiJKV1QiL...  e poderá ou não ser válida, e verificar o token  que está nela está é váLido. A tempo de expiração é de 5 minutos. Se ousuário demorar mais tempo que isso, precisará realizar outrasolicitação. Então mãos àobra
+O método get_user_by_recovery  chamará o métodos que criamos na model. O média retornará os dados do usuário ou None (caso esse token  não existe) para a rota that criaremos. -book gerado especialmente para Jossane  Cardoso.
+Ssword. ssword  atualizará a senha do usuário. Vamos abrir o.arquivo app.py  e adicionar as rotas that nos permitirão realizar realizas tarefas. E-book gerado especialmente para Jossane  Cardoso.
+A primeira rota receberá como parâmetro <recovery_code> . Quando pegarmos o valor, chamaremos o método grotesqueverify_auth_token. O usuário será redirecionado para a viewpoints.
+A segunda rota será usada para realizarmos a requisição post                que o usuário fará para enviar sua nova senha para o sistema. Para atualizar a senha, chamaremos o método                 new_password.py . Se o mensagem de tipo 3 será emitida, tudo ocorre bem.
+New_password.html está na pasta templates. Para isso, precisaremos adicionar os códigos a seguir dentro.
+Ao realizar a alteração da senha, o us will use a clicar no link. Uma tela como a imagem adiante será exibida. E-book gerado especialmente para Jossane Cardoso - jossanec15@gmail.com.
+Uário será redirecionado para a tela de login e uma mensagem informará that a senha foialterada. Criamos um sistema completo, robusto eseguro, utilizando um dos melhores frameworks para python.
+E-book gerado especialmente para Jossane  Cardoso - jossanec15@gmail.comDaqui em diante você está totalmente apto a criar sistemas webseguros e completos.
